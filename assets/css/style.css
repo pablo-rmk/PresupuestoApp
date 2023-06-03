@@ -1,0 +1,13 @@
+* {
+    padding: 0%;
+    margin: 0%
+}
+
+#presupuesto {
+    background-color:  #e8f3ee;
+}
+
+#gasto, #nombreGasto{
+    background-color: #fbeaec;
+}
+
