@@ -23,6 +23,7 @@ calcular.addEventListener('click', function (event) {
         alert('El monto del presupuesto debe ser superior a cero.')
     } else {
         document.getElementById('mostrarPresupuesto').innerText = presupuesto;
+        document.getElementById('mostrarGasto').innerText = 0;
         document.getElementById('mostrarSaldo').innerText = presupuesto;
         document.getElementById('presupuesto').value = ''
     }
