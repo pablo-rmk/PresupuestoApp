@@ -26,6 +26,9 @@ calcular.addEventListener('click', function (event) {
         document.getElementById('mostrarGasto').innerText = 0;
         document.getElementById('mostrarSaldo').innerText = presupuesto;
         document.getElementById('presupuesto').value = ''
+        document.getElementById('mostrarNombre').innerHTML = ''
+        listaGastos = []
+        sumaGastos = 0
     }
 });
 
